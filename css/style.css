@@ -1,7 +1,50 @@
 /* set root variables */
+:root {
+  --primary: rgb(10, 77, 223);
+  --secondary: rgb(0, 225, 255);
+  --bg-main: rgb(219, 214, 214);
+}
 
 /* element selectors */
+body {
+  background-color: var(--bg-main);
+}
+
+h1, h2, h3 {
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  padding: 0 5px;
+}
+
+header, footer {
+  background-color: var(--primary);
+  padding: 10px 0;
+  color: var(--secondary);
+}
+
+
 
 /* class selectors */
+.social {
+  text-align: center;
+}
+
+.social a {
+  color: aliceblue;
+  padding: 0 5px;
+}
+
 
 /* media queries */
