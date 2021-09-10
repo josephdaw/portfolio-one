@@ -1,7 +1,9 @@
 /* set root variables */
 :root {
-  --primary: rgb(10, 77, 223);
-  --secondary: rgb(0, 225, 255);
+  --primary: #494e6b;
+  --secondary: #98878f;
+  --tertiary: #192231;
+  --accent: #985e6d;
   --bg-main: rgb(219, 214, 214);
 }
 
@@ -13,10 +15,13 @@ body {
 h1, h2, h3 {
   padding: 10px;
   text-align: center;
+  background-color: var(--secondary);
 }
 
 header h1 {
   text-align: center;
+  background-color: var(--primary);
+  font-size: 2em;
 }
 
 nav {
@@ -36,8 +41,16 @@ header, footer {
   color: var(--secondary);
 }
 
+p {
+  padding: 10px;
+}
+
 main {
   min-height: 80vh;
+}
+
+footer {
+  background-color: var(--tertiary);
 }
 
 footer nav {
@@ -50,8 +63,16 @@ footer p {
   padding-top: 10px;
 }
 /* class selectors */
+.img-joseph {
+  max-width: 40%;
+}
 
+.about p {
+  float: right;
+}
 
-
+#portfolio {
+  clear: both;
+}
 
 /* media queries */
