@@ -24,8 +24,9 @@ nav {
   justify-content: center;
 }
 
-nav a {
+nav a, footer a {
   padding: 0 5px;
+  color: aliceblue;
 }
 
 header, footer {
@@ -34,17 +35,14 @@ header, footer {
   color: var(--secondary);
 }
 
-
+footer {
+  display: flex;
+  justify-content: center;
+}
 
 /* class selectors */
-.social {
-  text-align: center;
-}
 
-.social a {
-  color: aliceblue;
-  padding: 0 5px;
-}
+
 
 
 /* media queries */
