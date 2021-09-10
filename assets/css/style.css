@@ -2,9 +2,10 @@
 :root {
   --primary: #494e6b;
   --secondary: #98878f;
-  --tertiary: #192231;
+  --light: aliceblue;
+  --dark: #192231;
   --accent: #985e6d;
-  --bg-main: rgb(219, 214, 214);
+  --bg-main: rgba(219, 214, 214, 0.1);
 }
 
 /* element selectors */
@@ -16,12 +17,14 @@ h1, h2, h3 {
   padding: 10px;
   text-align: center;
   background-color: var(--secondary);
+  color: var(--dark)
 }
 
 header h1 {
   text-align: center;
   background-color: var(--primary);
-  font-size: 2em;
+  font-size: 2.5em;
+  color: var(--secondary);
 }
 
 nav {
@@ -31,14 +34,13 @@ nav {
 
 nav a, footer a {
   padding: 0 5px;
-  color: aliceblue;
+  color: var(--light);
 }
 
 header, footer {
   min-height: 10vh;
   background-color: var(--primary);
   padding: 10px 0;
-  color: var(--secondary);
 }
 
 p {
@@ -50,7 +52,7 @@ main {
 }
 
 footer {
-  background-color: var(--tertiary);
+  background-color: var(--dark);
 }
 
 footer nav {
@@ -61,7 +63,14 @@ footer nav {
 footer p {
   text-align: center;
   padding-top: 10px;
+  color: var(--secondary);
 }
+
+article img {
+  width: 90%;
+  text-align: center;
+}
+
 /* class selectors */
 .img-joseph {
   max-width: 40%;
@@ -76,3 +85,10 @@ footer p {
 }
 
 /* media queries */
+@media screen and (min-width:780px) {
+  header nav {
+    justify-content: right;
+    margin-top: -2em;
+    padding-right: 10px;
+  }
+}
