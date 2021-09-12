@@ -1,6 +1,6 @@
 /* set root variables */
 :root {
-  --primary: #494e6b;
+  --primary: #3c4369;
   --secondary: #98878f;
   --light: aliceblue;
   --dark: #192231;
@@ -24,11 +24,23 @@ h3, p {
   padding: 5px 0;
 }
 
+header{
+  background-color: var(--primary);
+  padding: 5px 0 15px 0;
+}
+
 header h1 {
   text-align: center;
+  padding-bottom: 15px;
   background-color: var(--primary);
   font-size: 2.5em;
   color: var(--secondary);
+}
+
+header img {
+  max-height: 50px;
+  display: block;
+  margin: auto;
 }
 
 nav {
@@ -41,18 +53,13 @@ nav a, footer a {
   color: var(--light);
 }
 
-header, footer {
-  min-height: 10vh;
-  background-color: var(--primary);
-  padding: 10px 0;
-}
-
 main {
   min-height: 80vh;
 }
 
 footer {
   background-color: var(--dark);
+  padding: 10px 0;
 }
 
 footer nav {
@@ -66,10 +73,6 @@ footer p {
   color: var(--secondary);
 }
 
-article img {
-  width: 90%;
-}
-
 /* class selectors */
 
 .img-joseph {
@@ -80,7 +83,7 @@ article img {
   float: right;
 }
 
-.grid {
+.flex-row {
   display: flex;
   flex-flow: row wrap;
   gap: 10px;
@@ -90,9 +93,25 @@ article img {
   flex: 1 0 100%;
   justify-content: center;
   border: 1px solid var(--dark);
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
+}
+
+.card-header {
+  position: relative;
+  margin: -8rem 0 4rem 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  color: var(--light);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  align-self: flex-start;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
 }
 
 .text-center {
