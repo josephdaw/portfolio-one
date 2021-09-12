@@ -18,10 +18,11 @@ h1, h2 {
   text-align: center;
   background-color: var(--secondary);
   color: var(--dark);
+  clear: both;
 }
 
 h3, p {
-  padding: 5px 0;
+  padding: 5px;
 }
 
 header{
@@ -37,11 +38,12 @@ header h1 {
   color: var(--secondary);
 }
 
-header img {
+/* header img {
   max-height: 50px;
   display: block;
   margin: auto;
-}
+  padding-bottom: 15px;
+} */
 
 nav {
   display: flex;
@@ -77,11 +79,13 @@ footer p {
 
 .img-joseph {
   max-width: 40%;
+  float: left;
+  padding: 10px;
 }
 
-.about p {
+/* #about p {
   float: right;
-}
+} */
 
 .flex-row {
   display: flex;
