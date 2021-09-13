@@ -143,6 +143,9 @@ footer p {
   border-radius: 0 0 8px 8px;
   border: 4px solid var(--accent);
   border-top: none;
+  max-height: 250px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .text-center {
@@ -187,11 +190,12 @@ footer p {
   }
 
   .left {
-    border-right: 3px solid var(--secondary)
+    border-right: 3px solid var(--secondary);
+    width: 30%;
   }
 
   .right {
-    max-width: 70%;
+    width: 70%;
   }
 
   .about-me {
