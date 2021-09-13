@@ -85,10 +85,10 @@ footer {
   padding: 10px 0;
 }
 
-footer nav {
+/* footer nav {
   display: flex;
   justify-content: center;
-}
+} */
 
 footer p {
   text-align: center;
@@ -104,39 +104,9 @@ footer p {
 
 .about-me img {
   max-width: 100%;
-  max-height: 50vh;
-  margin: auto;
+  max-height: 500px;
+  margin: 10px auto;
 }
-
-
-
-
-/* .flex-row {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 10px;
-}
-
-.flex-grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
- .img-joseph {
-  width: 100%;
-  height: auto;
-  grid-column-start: 2;
-  grid-column-end: 12;
-}  */
-
-
-/* .img-joseph {
-  max-width: 100%;
-  margin: auto;
-  padding-left: 15%;
-  display: block;
-  padding: 10px 20% 10px 20%;
-} */
 
 
 
@@ -176,6 +146,11 @@ footer p {
   .about-me {
     flex-direction: row;
   }
+
+  .about-me img {
+    margin: 10px;
+  }
+
 }
 
 @media screen and (min-width:780px) {
