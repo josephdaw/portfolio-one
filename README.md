@@ -1,11 +1,18 @@
-# josephdaw.github.io
+# My Portfolio Page
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-## Description
-* This website is a static HTML website using semantic tags and minimal CSS. 
-* You can [view this page](https://josephdaw.github.io/) Github Pages.
 
-## Credits
-The original code for this website was forked from this [repo](https://github.com/coding-boot-camp/prework-about-me) as part of the [Adelaide University Coding Boot Camp](https://bootcamps.adelaide.edu.au).
+## Description
+This website is a responsive HTML website using semantic tags and CSS. It was designed using a "mobile first" philosophy.
+
+You can [view this site](https://josephdaw.github.io/) on Github Pages at https://josephdaw.github.io/.
+
+![site preview](assets/img/portfolio-site-screenshot.png)
+
+
+## Lessons
+As the focus of this site has been responsive design, I have used CSS flex-box extensively to acheive this objective. This project has been a good, and sometimes painful, lesson in how to display a site responsively. This is one of the first website I have designed from the ground up, certainly the first one that is responsive.
+
+This project has really cemented why developer tools like Chrome DevTools is such a powerful and useful resource. Up until now I have played around with it, without fully appreciating just how much it can assist with finding out how to achieve the style you are trying to achieve.
 
 ## License
-This project is released under the [MIT License](LICENSE)
+This project is released under the [MIT License](LICENSE).
