@@ -13,7 +13,34 @@ body {
   background-color: var(--bg-main);
 }
 
-h1, h2 {
+/* set default text sizing */
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.3rem;
+  padding: 5px;
+}
+
+h1, h2 { 
   padding: 10px;
   text-align: center;
   background-color: var(--secondary);
@@ -21,8 +48,9 @@ h1, h2 {
   clear: both;
 }
 
-h3, p {
+h3, h4, h5 { 
   padding: 5px;
+  color: var(--secondary);
 }
 
 header{
@@ -34,7 +62,6 @@ header h1 {
   text-align: center;
   padding-bottom: 15px;
   background-color: var(--primary);
-  font-size: 2.5em;
   color: var(--secondary);
 }
 
@@ -76,11 +103,12 @@ footer p {
 }
 
 /* class selectors */
-
 .img-joseph {
-  max-width: 40%;
-  float: left;
-  padding: 10px;
+  max-width: 100%;
+  margin: auto;
+  padding-left: 15%;
+  display: block;
+  padding: 10px 20% 10px 20%;
 }
 
 /* #about p {
@@ -113,6 +141,11 @@ footer p {
   align-self: flex-start;
 }
 
+/* .card-header h3 {
+  background-color: var(--primary);
+  color: var(--light);
+  text-align: left;
+} */
 .card img {
   width: 100%;
   border-radius: 8px;
