@@ -39,6 +39,10 @@ p {
   padding: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1, h2 { 
   padding: 10px;
   text-align: center;
