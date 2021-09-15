@@ -145,7 +145,14 @@ footer p {
   border-top: none;
   max-height: 250px;
   object-fit: cover;
+}
+
+.img-top {
   object-position: top;
+}
+
+.img-centre {
+  object-position: center center;
 }
 
 .text-center {
