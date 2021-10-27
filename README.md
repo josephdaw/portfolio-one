@@ -5,9 +5,12 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&logo=css3&logoColor=white)
 
 ## Description
-This website is a responsive HTML website using semantic tags and CSS. It was designed using a "mobile first" philosophy.
+This website is a responsive HTML website using semantic tags and CSS. It was designed using a "mobile first" philosophy. I coded this website from scratch without using any frameworks.
 
-You can [view this site](https://josephdaw.github.io/) on Github Pages at https://josephdaw.github.io/.
+This is the first version of my personal portfolio website which you can view on Github Pages at https://josephdaw.github.io/portfolio-one
+
+If you would like to view my most recent portfolio page visit https://josephdaw.github.io.
+
 
 ![site preview](assets/img/portfolio-site-screenshot.png)
 
